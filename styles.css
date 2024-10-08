@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  background-color: azure;
+}
+
+head {
+  display:flex;
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0.1%;
+background-color:darkblue;
+color:aliceblue;
+
+}
+h1 {
+  font-family: impact;
+  font-size: 200%;
+  
+}
+
+h1::after{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  content: 'Portfolio';
+  color:bisque;
+  margin-left: 5px;
+}
+nav ul {
+  display:flex;
+  justify-content:space-between;
+  min-width: 300px;
+}
+
+nav a {
+font-family: impact;
+  color:antiquewhite;
+  font-weight: bold;
+  text-decoration: underline;
+}
+nav li::before,
+nav li:after {
+  color:azure;
+  padding: 1%;
+  font-family: cursive;
+}
+
+nav a:hover {
+  color:aliceblue
+}
+
+h2 {
+  font-size: 50px;
+  display: inline-block;
+  position:absolute;
+  left: 200px;
+  width: 300px;
+  border: 3px;
+  padding: 10px;
+
+}
+
+h3 {
+  font-size: 50px;
+  display: inline-block;
+  position:absolute;
+  left: 200px;
+  bottom: 200px;
+  width: 300px;
+  border: 3px;
+  padding: 60px;
+}
+p {
+  display: inline-block;
+  position:relative;
+  left: 500px;
+  width: 500px;
+  border: 3px;
+  padding: 40px;
+}
+.vl {
+  border-left: 3px solid darkblue;
+     height:150px;
+     left: 30%;
+     position: absolute;
+}
