@@ -7,7 +7,6 @@ The goal of this challenge was to create a portfolio of my professional work. I 
 ## Screenshot
 <img src="./screenshot-1.png">
 <img src="./screenshot-2.png">
-<img src="./screenshot-3.png">
 
 ## Link to working Application
-<a href="https://namastenataly.github.io/test-challenge/">Github Pages</a>
+<a href="https://namastenataly.github.io/nataly-portfolio/">Github Pages</a>
